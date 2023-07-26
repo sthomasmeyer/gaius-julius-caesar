@@ -1,7 +1,7 @@
 {
   "name": "gaius",
   "version": "1.0.0",
-  "description": "The home for all of you Caesar Cipher-related cryptography needs.",
+  "description": "The home for your Caesar Cipher-related cryptography needs.",
   "main": "app.js",
   "scripts": {
     "test": "jest"
