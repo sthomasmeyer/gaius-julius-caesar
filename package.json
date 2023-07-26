@@ -1,0 +1,14 @@
+{
+  "name": "gaius",
+  "version": "1.0.0",
+  "description": "The home for all of you Caesar Cipher-related cryptography needs.",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Seth Thomasmeyer",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
