@@ -1,4 +1,4 @@
-const caesarCipherEncryption = require('./caesarCipherEncryption');
+const caesarCipherEncryption = require('../caesarCipherEncryption');
 
 test('properly encrypts: Rome w/ a shift of 2', () => {
   expect(caesarCipherEncryption('Rome', 2)).toBe('Tqog');

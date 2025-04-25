@@ -1,4 +1,4 @@
-const brutusForcilius = require('./brutusForcilius');
+const brutusForcilius = require('../brutusForcilius');
 
 test('applies brute force decryption methods effectively to this ciphertext: OHDYH WKH SDFNDJH DW WKH GRFNV', () => {
   expect(brutusForcilius('OHDYH WKH SDFNDJH DW WKH GRFNV')).toContain(
