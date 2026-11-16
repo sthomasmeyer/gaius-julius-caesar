@@ -4,11 +4,13 @@
   "description": "The home for your Caesar Cipher-related cryptography needs.",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "start": "node app.js",
+    "test": "node --test",
+    "check": "node --check app.js && node --check cipher.js && node --check tests/cipher.test.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   },
   "author": "Seth Thomasmeyer",
-  "license": "MIT",
-  "devDependencies": {
-    "jest": "^29.6.1"
-  }
+  "license": "MIT"
 }
